@@ -276,51 +276,132 @@
 | Actual Result | No Phone Number field was observed in the Contact form. |
 | Status | NOT APPLICABLE |
 
-## 4. Test Execution Results
+### TC020 – Contact Form Submission
 
-| Test Case ID | Test Scenario | Actual Status |
-|---|---|---|
-| TC001 | Homepage Loading | PASS |
-| TC002 | Company Logo Verification | PASS |
-| TC003 | Logo Navigation from Contact Page | PASS |
-| TC004 | Our Story Page Navigation | PASS |
-| TC005 | Our Team Page Navigation | PASS |
-| TC006 | Careers Page Navigation | PASS |
-| TC007 | Social Impact Page Navigation | PASS |
-| TC008 |  ServiceHub Navigation | PASS |
-| TC009 | Product Suite Navigation | PASS |
-| TC010 | Case Studies Navigation | PASS |
-| TC011 | The Ecosystem Navigation | PASS |
-| TC012 | Learning Paths Navigation | PASS |
-| TC013 | Student Diaries Navigation | PASS |
-| TC014 | Blog Navigation | PASS |
-| TC015 | Contact Form Message Field Validation | PASS |
-| TC015 | Contact Form Message Field Validation | PASS |
-| TC016 | Contact Form Required Field Validation | PASS |
-| TC017 | Contact Form Invalid Email Validation | PASS |
-| TC018 | Contact Form Valid Email Format Validation | PASS |
+| Field | Details |
+|---|---|
+| Test Case ID | TC020 |
+| Module | Contact |
+| Test Scenario | Verify whether the Contact form submits successfully |
+| Preconditions | Cynbit Contact page is open |
+| Test Steps | 1. Enter the required form details. 2. Click Submit. 3. Observe the confirmation message. |
+| Expected Result | The form should submit successfully and display a confirmation message. |
+| Actual Result | The message "Inquiry Received" was displayed after clicking Submit. |
+| Status | PASS |
+
+### TC021 – Privacy Policy Link Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC021 |
+| Module | Footer |
+| Test Scenario | Verify whether the Privacy Policy link works |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Scroll to the footer. 2. Click the Privacy Policy link. |
+| Expected Result | Privacy Policy page should open successfully. |
+| Actual Result | Privacy Policy page opened successfully. |
+| Status | PASS |
+
+### TC022 – LinkedIn Social Media Link Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC022 |
+| Module | Footer |
+| Test Scenario | Verify whether the LinkedIn social media link works |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Scroll to the footer. 2. Click the LinkedIn icon. |
+| Expected Result | Cynbit's LinkedIn page should open successfully. |
+| Actual Result | Cynbit's LinkedIn page opened successfully. |
+| Status | PASS |
+
+### TC023 – Instagram Social Media Link Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC023 |
+| Module | Footer |
+| Test Scenario | Verify whether the Instagram social media link works |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Scroll to the footer. 2. Click the Instagram icon. |
+| Expected Result | Cynbit's Instagram page should open successfully. |
+| Actual Result | Cynbit's Instagram page opened successfully. |
+| Status | PASS |
+
+### TC024 – Facebook Social Media Link Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC024 |
+| Module | Footer |
+| Test Scenario | Verify whether the Facebook social media link works |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Scroll to the footer. 2. Click the Facebook icon. |
+| Expected Result | Cynbit's Facebook page should open successfully. |
+| Actual Result | Cynbit's Facebook page opened successfully. |
+| Status | PASS |
+
+### TC025 – X (Twitter) Social Media Link Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC025 |
+| Module | Footer |
+| Test Scenario | Verify whether the X (Twitter) social media link works |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Scroll to the footer. 2. Click the X icon. |
+| Expected Result | Cynbit's X page should open successfully. |
+| Actual Result | Cynbit's X page opened successfully. |
+| Status | PASS |
 
 
-## 5. Conclusion
+## Test Execution Results
 
-A total of nineteen manual test cases have been documented for the Cynbit website.
+### Test Execution Summary
 
-Eighteen test cases were executed successfully, and one test case remains pending.
+| Metric | Count |
+|---|---:|
+| Total Test Cases | 25 |
+| Passed | 24 |
+| Failed | 0 |
+| Not Run / Pending | 1 |
 
-The tested areas included:
+### Test Execution Details
 
-- Homepage and company logo
-- Company navigation pages
-- Expertise pages
-- BitElevate pages
-- Blog navigation
-- Contact form message field
-- Required-field validation
-- Invalid email validation
-- Valid email format acceptance
+| Test Case ID | Test Scenario | Actual Result | Status |
+|---|---|---|---|
+| TC001 | Homepage Loading | Homepage loaded successfully. | PASS |
+| TC002 | Company Logo Verification | Company logo was visible and clear. | PASS |
+| TC003 | Logo Navigation from Contact Page | Clicking the logo navigated to the homepage. | PASS |
+| TC004 | Our Story Page Navigation | Our Story page opened successfully. | PASS |
+| TC005 | Our Team Page Navigation | Our Team page opened successfully. | PASS |
+| TC006 | Careers Page Navigation | Careers page opened successfully. | PASS |
+| TC007 | Social Impact Page Navigation | Social Impact page opened successfully. | PASS |
+| TC008 | Services Hub Navigation | Services Hub page opened successfully. | PASS |
+| TC009 | Product Suite Navigation | Product Suite page opened successfully. | PASS |
+| TC010 | Case Studies Navigation | Case Studies page opened successfully. | PASS |
+| TC011 | The Ecosystem Navigation | The Ecosystem page opened successfully. | PASS |
+| TC012 | Learning Paths Navigation | Learning Paths page opened successfully. | PASS |
+| TC013 | Student Diaries Navigation | Student Diaries page opened successfully. | PASS |
+| TC014 | Blog Navigation | Blog page opened successfully. | PASS |
+| TC015 | Contact Message Field | Your Message field accepted text. | PASS |
+| TC016 | Required Field Validation | Required-field validation displayed a message when the form was submitted empty. | PASS |
+| TC017 | Invalid Email Validation | Incomplete email format was rejected. | PASS |
+| TC018 | Valid Email Acceptance | Valid email format was accepted. | PASS |
+| TC019 | Phone Number Validation | Not yet tested. | NOT RUN |
+| TC020 | Contact Form Submission | A genuine enquiry was submitted and the confirmation message "Inquiry Received" was displayed. | PASS |
+| TC021 | Privacy Policy Link | Privacy Policy page opened successfully. | PASS |
+| TC022 | LinkedIn Social Media Link | Cynbit's LinkedIn page opened successfully. | PASS |
+| TC023 | Instagram Social Media Link | Cynbit's Instagram page opened successfully. | PASS |
+| TC024 | Facebook Social Media Link | Cynbit's Facebook page opened successfully. | PASS |
+| TC025 | X (Twitter) Social Media Link | Cynbit's X page opened successfully. | PASS |
+
+### Test Execution Conclusion
+
+A total of 25 manual test cases were documented. Out of these, 24 test cases passed, zero failed, and one remains pending.
+
+The executed tests covered homepage loading, company logo visibility, website navigation, contact form functionality, footer links, and social media links.
 
 No failures were observed in the executed test cases.
 
-Further testing is pending for phone number validation, remaining website links, responsiveness, usability, accessibility, and performance.
-
-**Overall Status:** Testing In Progress
+**Overall Testing Status: Testing In Progress**
