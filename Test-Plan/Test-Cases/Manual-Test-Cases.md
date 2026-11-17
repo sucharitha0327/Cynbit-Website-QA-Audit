@@ -120,6 +120,58 @@
 | Actual Result | Social Impact page opened successfully. |
 | Status | PASS |
 
+### TC008 – ServiceHub Navigation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC008 |
+| Module | Expertise |
+| Test Scenario | Verify whether the ServiceHub page opens successfully |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Click Expertise in the navigation menu. 2. Select ServiceHub. 3. Verify that the page displays. |
+| Expected Result | ServiceHub page should open and display its content. |
+| Actual Result | ServiceHub page displayed successfully. |
+| Status | PASS |
+
+### TC009 – Product Suite Navigation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC009 |
+| Module | Expertise |
+| Test Scenario | Verify whether the Product Suite page opens successfully |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Click Expertise in the navigation menu. 2. Select Product Suite. 3. Verify that the page displays. |
+| Expected Result | Product Suite page should open successfully and display its content. |
+| Actual Result | Product Suite page opened and displayed successfully. |
+| Status | PASS |
+
+### TC010 – Case Studies Navigation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC010 |
+| Module | Expertise |
+| Test Scenario | Verify whether the Case Studies page opens successfully |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Click Expertise in the navigation menu. 2. Select Case Studies. 3. Verify that the page displays. |
+| Expected Result | Case Studies page should open successfully and display its content. |
+| Actual Result | Case Studies page opened and displayed successfully. |
+| Status | PASS |
+
+### TC011 – The Ecosystem Navigation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC011 |
+| Module | BitElevate |
+| Test Scenario | Verify whether The Ecosystem page opens successfully |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Click BitElevate in the navigation menu. 2. Select The Ecosystem. 3. Verify that the page displays. |
+| Expected Result | The Ecosystem page should open successfully and display its content. |
+| Actual Result | The Ecosystem page opened and displayed successfully. |
+| Status | PASS |
+
 ## 4. Test Execution Results
 
 | Test Case ID | Test Scenario | Actual Status |
@@ -131,14 +183,20 @@
 | TC005 | Our Team Page Navigation | PASS |
 | TC006 | Careers Page Navigation | PASS |
 | TC007 | Social Impact Page Navigation | PASS |
+| TC008 |  ServiceHub Navigation | PASS |
+| TC009 | Product Suite Navigation | PASS |
+| TC010 | Case Studies Navigation | PASS |
+| TC011 | The Ecosystem Navigation | PASS |
+
 
 ## 5. Conclusion
 
-A total of seven manual functional test cases were executed on the Cynbit website.
+A total of eleven manual functional test cases were executed on the Cynbit website.
 
-All seven executed test cases passed successfully. No failures were observed during the testing.
+All eleven executed test cases passed successfully. No failures were observed during the testing.
 
 The tested areas included:
+
 - Homepage loading
 - Company logo visibility
 - Logo navigation from the Contact page
@@ -146,7 +204,11 @@ The tested areas included:
 - Our Team page navigation
 - Careers page navigation
 - Social Impact page navigation
+- Services Hub navigation
+- Product Suite navigation
+- Case Studies navigation
+- The Ecosystem navigation
 
-Further testing is pending for other website sections, navigation links, forms, responsiveness, usability, accessibility, and performance.
+Further testing is pending for Learning Paths, Student Diaries, Blog, Contact form validation, footer links, responsiveness, usability, accessibility, and performance.
 
 **Overall Status:** Testing In Progress
