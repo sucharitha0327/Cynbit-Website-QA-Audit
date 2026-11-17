@@ -14,9 +14,9 @@ The following test cases are designed to verify the functionality, usability, na
 
 | Test Case ID | Module | Test Scenario | Expected Result | Actual Result | Status |
 |---|---|---|---|---|---|
-| TC001 | Homepage | Open the website URL | Homepage should load successfully | Not yet tested | Not Run |
-| TC002 | Homepage | Verify company logo | Logo should display correctly | Not yet tested | Not Run |
-| TC003 | Navigation | Click Home | Homepage should open | Not yet tested | Not Run |
+| TC001 | Verify homepage loading | Homepage should load successfully | Homepage loaded correctly | PASS |
+| TC002 | Verify company logo | Logo should be visible and clear | Logo displayed correctly | PASS |
+| TC003 | Verify logo navigation | Clicking logo from Contact page should return to homepage | Successfully navigated to homepage | PASS |
 | TC004 | Navigation | Click Our Story | Story page should open | Not yet tested | Not Run |
 | TC005 | Navigation | Click Services | Services page should open | Not yet tested | Not Run |
 | TC006 | Navigation | Click Careers | Careers page should open | Not yet tested | Not Run |
