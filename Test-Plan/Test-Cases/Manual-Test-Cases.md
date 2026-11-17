@@ -14,7 +14,7 @@
 
 | Total Test Cases | Passed | Failed | Not Run |
 |---|---|---|---|
-| 4 | 4 | 0 | 0 |
+| 6 | 6 | 0 | 0 |
 
 ## 2. Test Environment
 
@@ -80,6 +80,34 @@
 | Actual Result | Our Story page opened successfully and displayed the company vision, mission, and other content. |
 | Status | PASS |
 
+
+### TC005 – Our Team Page Navigation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC005 |
+| Module | Company |
+| Test Scenario | Verify whether the Our Team page opens successfully |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Click Company in the navigation menu. 2. Select Our Team. 3. Verify that the page opens. |
+| Expected Result | Our Team page should open successfully and display its content. |
+| Actual Result | Our Team page opened successfully. |
+| Status | PASS |
+
+
+### TC006 – Careers Page Navigation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC006 |
+| Module | Company |
+| Test Scenario | Verify whether the Careers page opens successfully |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Click Company in the navigation menu. 2. Select Careers. 3. Verify that the page opens. |
+| Expected Result | Careers page should open successfully and display career-related information. |
+| Actual Result | Careers page opened successfully. |
+| Status | PASS |
+
 ## 4. Test Execution Results
 
 | Test Case ID | Test Scenario | Actual Status |
@@ -88,6 +116,8 @@
 | TC002 | Company Logo Verification | PASS |
 | TC003 | Logo Navigation from Contact Page | PASS |
 | TC004 | Our Story Page Navigation | PASS |
+| TC005 | Our Team Page Navigation | PASS |
+| TC006 | Careers Page Navigation | PASS |
 
 ## 5. Conclusion
 
