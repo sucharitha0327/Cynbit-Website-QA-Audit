@@ -366,6 +366,32 @@
 | Failed | 0 |
 | Not Run / Pending | 1 |
 
+### TC026 – Newsletter Link Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC026 |
+| Module | Footer / Newsletter |
+| Test Scenario | Verify whether the Join the Newsletter link works |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Open the homepage. 2. Scroll to the footer. 3. Click the Join the Newsletter link. |
+| Expected Result | Newsletter subscription section should open successfully. |
+| Actual Result | The Architect's Digest newsletter subscription section opened successfully. |
+| Status | PASS |
+
+### TC027 – Newsletter Subscription Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC027 |
+| Module | Footer / Newsletter |
+| Test Scenario | Verify whether newsletter subscription works |
+| Preconditions | Cynbit newsletter subscription section is open |
+| Test Steps | 1. Open the newsletter section. 2. Enter a business email address. 3. Click Subscribe Now. |
+| Expected Result | Newsletter subscription should complete successfully and display a confirmation message. |
+| Actual Result | The message "Success! Welcome to the network." was displayed. |
+| Status | PASS |
+
 ### Test Execution Details
 
 | Test Case ID | Test Scenario | Actual Result | Status |
@@ -395,13 +421,34 @@
 | TC023 | Instagram Social Media Link | Cynbit's Instagram page opened successfully. | PASS |
 | TC024 | Facebook Social Media Link | Cynbit's Facebook page opened successfully. | PASS |
 | TC025 | X (Twitter) Social Media Link | Cynbit's X page opened successfully. | PASS |
+| TC026 | Newsletter Link Verification | Clicking Join the Newsletter opened the Architect's Digest newsletter subscription section successfully. | PASS |
+| TC027 | Newsletter Subscription Verification | After clicking Subscribe Now, the message "Success! Welcome to the network." was displayed. | PASS |
 
-### Test Execution Conclusion
 
-A total of 25 manual test cases were documented. Out of these, 24 test cases passed, zero failed, and one remains pending.
+## Conclusion
 
-The executed tests covered homepage loading, company logo visibility, website navigation, contact form functionality, footer links, and social media links.
+A total of 27 manual test cases were documented for the Cynbit website.
 
-No failures were observed in the executed test cases.
+Out of these:
+- 26 test cases passed successfully.
+- 0 test cases failed.
+- 1 test case remains pending.
+
+The testing covered the following areas:
+
+- Homepage loading and company logo visibility.
+- Website navigation and internal page links.
+- Company, Expertise, and BitElevate sections.
+- Contact form fields and validation.
+- Contact form submission confirmation.
+- Footer navigation and Privacy Policy link.
+- Social media links (LinkedIn, Instagram, Facebook, and X).
+- Newsletter link and subscription functionality.
+
+The executed test cases performed as expected, and no failures were observed.
+
+Further testing is required for the remaining pending test case, responsiveness, usability, accessibility, and performance.
 
 **Overall Testing Status: Testing In Progress**
+
+The audit will be considered complete after the remaining test activities are performed and documented.
