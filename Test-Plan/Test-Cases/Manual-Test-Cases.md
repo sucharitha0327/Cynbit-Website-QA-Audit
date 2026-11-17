@@ -14,7 +14,7 @@
 
 | Total Test Cases | Passed | Failed | Not Run |
 |---|---|---|---|
-| 6 | 6 | 0 | 0 |
+| 7 | 7 | 0 | 0 |
 
 ## 2. Test Environment
 
@@ -94,7 +94,6 @@
 | Actual Result | Our Team page opened successfully. |
 | Status | PASS |
 
-
 ### TC006 – Careers Page Navigation
 
 | Field | Details |
@@ -108,6 +107,19 @@
 | Actual Result | Careers page opened successfully. |
 | Status | PASS |
 
+### TC007 – Social Impact Page Navigation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC007 |
+| Module | Company |
+| Test Scenario | Verify whether the Social Impact page opens successfully |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Click Company in the navigation menu. 2. Select Social Impact. 3. Verify that the page opens. |
+| Expected Result | Social Impact page should open successfully and display its content. |
+| Actual Result | Social Impact page opened successfully. |
+| Status | PASS |
+
 ## 4. Test Execution Results
 
 | Test Case ID | Test Scenario | Actual Status |
@@ -118,13 +130,23 @@
 | TC004 | Our Story Page Navigation | PASS |
 | TC005 | Our Team Page Navigation | PASS |
 | TC006 | Careers Page Navigation | PASS |
+| TC007 | Social Impact Page Navigation | PASS |
 
 ## 5. Conclusion
 
-The first four manual functional test cases were executed successfully.
+A total of seven manual functional test cases were executed on the Cynbit website.
 
-All four executed test cases passed. No failures were observed in these tests.
+All seven executed test cases passed successfully. No failures were observed during the testing.
 
-Further testing of website navigation, page links, forms, responsiveness, usability, and accessibility is pending.
+The tested areas included:
+- Homepage loading
+- Company logo visibility
+- Logo navigation from the Contact page
+- Our Story page navigation
+- Our Team page navigation
+- Careers page navigation
+- Social Impact page navigation
+
+Further testing is pending for other website sections, navigation links, forms, responsiveness, usability, accessibility, and performance.
 
 **Overall Status:** Testing In Progress
