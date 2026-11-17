@@ -14,7 +14,7 @@
 
 | Total Test Cases | Passed | Failed | Not Run |
 |---|---|---|---|
-| 11 | 11 | 0 | 0 |
+| 14 | 14 | 0 | 0 |
 
 ## 2. Test Environment
 
@@ -172,6 +172,110 @@
 | Actual Result | The Ecosystem page opened and displayed successfully. |
 | Status | PASS |
 
+### TC012 – Learning Paths Navigation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC012 |
+| Module | BitElevate |
+| Test Scenario | Verify whether the Learning Paths page opens successfully |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Click BitElevate in the navigation menu. 2. Select Learning Paths. 3. Verify that the page displays. |
+| Expected Result | Learning Paths page should open successfully and display its content. |
+| Actual Result | Learning Paths page opened and displayed successfully. |
+| Status | PASS |
+
+### TC013 – Student Diaries Navigation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC013 |
+| Module | BitElevate |
+| Test Scenario | Verify whether the Student Diaries page opens successfully |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Click BitElevate in the navigation menu. 2. Select Student Diaries. 3. Verify that the page displays. |
+| Expected Result | Student Diaries page should open successfully and display its content. |
+| Actual Result | Student Diaries page opened and displayed successfully. |
+| Status | PASS |
+
+### TC014 – Blog Navigation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC014 |
+| Module | Blog |
+| Test Scenario | Verify whether the Blog page opens successfully |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Click Blog in the top navigation. 2. Wait for the page to load. 3. Verify that the page displays. |
+| Expected Result | Blog page should open successfully and display its content. |
+| Actual Result | Blog page opened and displayed successfully. |
+| Status | PASS |
+
+### TC015 – Contact Form Message Field Validation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC015 |
+| Module | Contact |
+| Test Scenario | Verify whether the Your Message field accepts text input |
+| Preconditions | Cynbit Contact page is open |
+| Test Steps | 1. Open the Contact page. 2. Locate the Your Message field. 3. Enter a test message. 4. Verify the entered text. |
+| Expected Result | The Your Message field should accept and display the entered text correctly. |
+| Actual Result | The Your Message field accepted and displayed the entered text correctly. |
+| Status | PASS |
+
+### TC016 – Contact Form Required Field Validation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC016 |
+| Module | Contact |
+| Test Scenario | Verify required-field validation when submitting an empty form |
+| Preconditions | Cynbit Contact page is open |
+| Test Steps | 1. Open the Contact page. 2. Leave all fields empty. 3. Click Submit. 4. Observe the validation message. |
+| Expected Result | Form submission should be prevented and a required-field validation message should appear. |
+| Actual Result | Required-field validation message displayed: "Please fill out this field." |
+| Status | PASS |
+
+### TC017 – Contact Form Invalid Email Validation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC017 |
+| Module | Contact |
+| Test Scenario | Verify email validation for an incomplete email address |
+| Preconditions | Cynbit Contact page is open |
+| Test Steps | 1. Enter an incomplete email address (testemail@). 2. Click Submit. 3. Observe the validation message. |
+| Expected Result | The form should reject the incomplete email address and display a validation message. |
+| Actual Result | Validation message indicated that the email address was incomplete. |
+| Status | PASS |
+
+### TC018 – Contact Form Valid Email Format Validation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC018 |
+| Module | Contact |
+| Test Scenario | Verify whether the email field accepts a valid email format |
+| Preconditions | Cynbit Contact page is open |
+| Test Steps | 1. Locate the Email field. 2. Enter qa.test@example.com. 3. Verify whether the email is accepted. |
+| Expected Result | The email field should accept a correctly formatted email address. |
+| Actual Result | The email field accepted the valid email format. |
+| Status | PASS |
+
+### TC019 – Phone Number Field Availability
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC019 |
+| Module | Contact |
+| Test Scenario | Verify whether the Contact form contains a Phone Number field |
+| Preconditions | Cynbit Contact page is open |
+| Test Steps | 1. Open the Contact page. 2. Inspect all form fields. 3. Check for a Phone Number field. |
+| Expected Result | Phone Number field should be available if required by the form requirements. |
+| Actual Result | No Phone Number field was observed in the Contact form. |
+| Status | NOT APPLICABLE |
+
 ## 4. Test Execution Results
 
 | Test Case ID | Test Scenario | Actual Status |
@@ -187,28 +291,36 @@
 | TC009 | Product Suite Navigation | PASS |
 | TC010 | Case Studies Navigation | PASS |
 | TC011 | The Ecosystem Navigation | PASS |
+| TC012 | Learning Paths Navigation | PASS |
+| TC013 | Student Diaries Navigation | PASS |
+| TC014 | Blog Navigation | PASS |
+| TC015 | Contact Form Message Field Validation | PASS |
+| TC015 | Contact Form Message Field Validation | PASS |
+| TC016 | Contact Form Required Field Validation | PASS |
+| TC017 | Contact Form Invalid Email Validation | PASS |
+| TC018 | Contact Form Valid Email Format Validation | PASS |
 
 
 ## 5. Conclusion
 
-A total of eleven manual functional test cases were executed on the Cynbit website.
+A total of nineteen manual test cases have been documented for the Cynbit website.
 
-All eleven executed test cases passed successfully. No failures were observed during the testing.
+Eighteen test cases were executed successfully, and one test case remains pending.
 
 The tested areas included:
 
-- Homepage loading
-- Company logo visibility
-- Logo navigation from the Contact page
-- Our Story page navigation
-- Our Team page navigation
-- Careers page navigation
-- Social Impact page navigation
-- Services Hub navigation
-- Product Suite navigation
-- Case Studies navigation
-- The Ecosystem navigation
+- Homepage and company logo
+- Company navigation pages
+- Expertise pages
+- BitElevate pages
+- Blog navigation
+- Contact form message field
+- Required-field validation
+- Invalid email validation
+- Valid email format acceptance
 
-Further testing is pending for Learning Paths, Student Diaries, Blog, Contact form validation, footer links, responsiveness, usability, accessibility, and performance.
+No failures were observed in the executed test cases.
+
+Further testing is pending for phone number validation, remaining website links, responsiveness, usability, accessibility, and performance.
 
 **Overall Status:** Testing In Progress
