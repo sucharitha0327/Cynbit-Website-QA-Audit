@@ -1,67 +1,87 @@
-# Cynbit Technologies – Manual Test Cases
 
-**Project:** Cynbit Website Quality Audit  
-**Prepared By:** Kethala Sucharitha  
-**Testing Type:** Manual Testing  
-**Website:** https://www.cynbit.in/  
-**Status:** Test execution pending
+# Manual Test Cases – Cynbit Website QA Audit
 
-## 1. Test Case Summary
+**Project:** Cynbit Technologies Website Quality Audit
 
-The following test cases are designed to verify the functionality, usability, navigation, responsiveness and accessibility of the Cynbit Technologies website.
+**Applicant:** Kethala Sucharitha
 
-## 2. Manual Test Cases
+**Testing Type:** Manual Testing
 
-| Test Case ID | Module | Test Scenario | Expected Result | Actual Result | Status |
-|---|---|---|---|---|---|
-| TC001 | Verify homepage loading | Homepage should load successfully | Homepage loaded correctly | PASS |
-| TC002 | Verify company logo | Logo should be visible and clear | Logo displayed correctly | PASS |
-| TC003 | Verify logo navigation | Clicking logo from Contact page should return to homepage | Successfully navigated to homepage | PASS |
-| TC004 | Navigation | Click Our Story | Story page should open | Not yet tested | Not Run |
-| TC005 | Navigation | Click Services | Services page should open | Not yet tested | Not Run |
-| TC006 | Navigation | Click Careers | Careers page should open | Not yet tested | Not Run |
-| TC007 | Navigation | Click Contact | Contact page should open | Not yet tested | Not Run |
-| TC008 | Services | Open Services section | Service information should display correctly | Not yet tested | Not Run |
-| TC009 | Careers | Open Careers page | Career information should display correctly | Not yet tested | Not Run |
-| TC010 | Careers | Check internship information | Internship details should be visible | Not yet tested | Not Run |
-| TC011 | Contact | Check contact information | Contact details should be displayed | Not yet tested | Not Run |
-| TC012 | Contact | Check inquiry form if available | Form fields should work correctly | Not yet tested | Not Run |
-| TC013 | Footer | Verify footer links | Links should navigate to correct pages | Not yet tested | Not Run |
-| TC014 | Footer | Verify copyright information | Copyright text should display correctly | Not yet tested | Not Run |
-| TC015 | Images | Check website images | Images should load without errors | Not yet tested | Not Run |
-| TC016 | UI | Check text alignment | Text should be properly aligned | Not yet tested | Not Run |
-| TC017 | Responsive | Open website on desktop | Layout should display correctly | Not yet tested | Not Run |
-| TC018 | Responsive | Resize browser to tablet width | Content should fit the screen | Not yet tested | Not Run |
-| TC019 | Responsive | Resize browser to mobile width | Layout should adjust to mobile screen | Not yet tested | Not Run |
-| TC020 | Responsive | Check horizontal scrolling | Unwanted horizontal scrolling should not occur | Not yet tested | Not Run |
-| TC021 | Accessibility | Navigate using Tab key | Interactive elements should be keyboard accessible | Not yet tested | Not Run |
-| TC022 | Accessibility | Check keyboard focus | Focus indicator should be visible | Not yet tested | Not Run |
-| TC023 | Performance | Observe page loading | Pages should load within a reasonable time | Not yet tested | Not Run |
-| TC024 | Browser | Refresh a website page | Page should reload without errors | Not yet tested | Not Run |
-| TC025 | Links | Open external links | External links should navigate to the intended destination | Not yet tested | Not Run |
+**Website:** https://cynbit.in/
 
-## 3. Test Execution Instructions
+---
 
-1. Open the Cynbit Technologies website.
-2. Execute each test case manually.
-3. Compare actual results with expected results.
-4. Update the Actual Result column.
-5. Mark the test status as Pass or Fail.
-6. Capture screenshots for failed test cases.
-7. Record defects in the Bug and Issue Report.
+## 1. Test Execution Summary
 
-## 4. Test Status Definitions
+| Total Test Cases | Passed | Failed | Not Run |
+|---|---|---|---|
+| 3 | 3 | 0 | 0 |
 
-- **Pass:** Actual result matches expected result.
-- **Fail:** Actual result does not match expected result.
-- **Not Run:** Test case has not been executed.
-- **Blocked:** Testing cannot continue due to an issue or dependency.
+## 2. Test Environment
+
+| Environment | Details |
+|---|---|
+| Operating System | Windows 11 |
+| Browser | Google Chrome |
+| Testing Type | Manual Testing |
+| Website | https://cynbit.in/ |
+| Test Method | Functional Testing |
+
+## 3. Manual Test Cases
+
+### TC001 – Homepage Loading
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC001 |
+| Module | Homepage |
+| Test Scenario | Verify whether the Cynbit homepage loads successfully |
+| Preconditions | Internet connection is available |
+| Test Steps | 1. Open the Cynbit website. 2. Wait for the homepage to load. |
+| Expected Result | Homepage should load successfully without errors. |
+| Actual Result | Homepage loaded correctly. |
+| Status | PASS |
+
+### TC002 – Company Logo Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC002 |
+| Module | Homepage |
+| Test Scenario | Verify whether the company logo is displayed correctly |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Open the homepage. 2. Check the logo in the top-left corner. 3. Verify its visibility and clarity. |
+| Expected Result | Company logo should be visible, clear and properly displayed. |
+| Actual Result | Logo was visible and clear. No additional issues observed. |
+| Status | PASS |
+
+### TC003 – Home Navigation Using Company Logo
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC003 |
+| Module | Navigation |
+| Test Scenario | Verify whether clicking the company logo navigates to the homepage |
+| Preconditions | Contact page is open |
+| Test Steps | 1. Open the Contact page. 2. Click the company logo in the top-left corner. 3. Verify the destination page. |
+| Expected Result | User should be redirected to the homepage. |
+| Actual Result | Clicking the logo successfully navigated back to the homepage. |
+| Status | PASS |
+
+---
+
+## 4. Test Execution Results
+
+| Test Case ID | Test Scenario | Status |
+|---|---|---|
+| TC001 | Homepage Loading | PASS |
+| TC002 | Company Logo Verification | PASS |
+| TC003 | Home Navigation | PASS |
 
 ## 5. Conclusion
 
-These test cases provide a structured approach to testing the Cynbit Technologies website.
+The first three manual test cases were executed successfully on the Cynbit Technologies website.
 
-The test results will be updated after executing each test case. Identified issues will be documented separately with screenshots and reproduction steps.
+All three test cases passed during the initial testing phase.
 
-**Prepared by:** Kethala Sucharitha  
-**Role:** QA Testing Intern Applicant
+Further testing will cover navigation links, buttons, forms, responsiveness, usability and other website functionalities.
