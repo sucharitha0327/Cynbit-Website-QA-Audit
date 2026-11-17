@@ -178,13 +178,23 @@ Each identified defect will include:
 4. Improvement Recommendations
 5. Screenshots and Testing Evidence
 
-## 12. Conclusion
 
-This QA audit aims to evaluate the quality and usability of the Cynbit Technologies website.
+## Conclusion
 
-The testing process will help identify functional issues, UI defects, responsiveness problems and opportunities for improvement.
+The Cynbit website quality audit included 27 manual test cases covering website functionality, navigation, contact form validation, footer links, social media links, and newsletter subscription.
 
-All findings and recommendations will be documented based on actual test execution.
+Out of 27 test cases:
+- **26 Passed**
+- **0 Failed**
+- **1 Pending**
+
+The executed test cases worked as expected, and no functional failures were observed during the testing performed.
+
+Further testing is required for phone number validation, website responsiveness, usability, accessibility, and performance.
+
+Overall, the tested website features performed successfully based on the executed manual test cases.
+
+**Overall Testing Status: Testing In Progress**
 
 ---
 
