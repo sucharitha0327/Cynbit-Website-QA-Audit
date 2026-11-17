@@ -1,13 +1,12 @@
 
-# Manual Test Cases – Cynbit Website QA Audit
+# Cynbit Website – Manual Test Cases
 
-**Project:** Cynbit Technologies Website Quality Audit
-
-**Applicant:** Kethala Sucharitha
-
-**Testing Type:** Manual Testing
-
-**Website:** https://cynbit.in/
+**Project:** Cynbit Website Quality Audit  
+**Website:** https://cynbit.in/  
+**Testing Type:** Manual Functional Testing  
+**Execution Date:** 17 November 2026  
+**Browser:** Google Chrome  
+**Operating System:** Windows (version not confirmed)
 
 ---
 
@@ -21,7 +20,7 @@
 
 | Environment | Details |
 |---|---|
-| Operating System | Windows 11 |
+| Operating System | Windows |
 | Browser | Google Chrome |
 | Testing Type | Manual Testing |
 | Website | https://cynbit.in/ |
@@ -48,40 +47,40 @@
 |---|---|
 | Test Case ID | TC002 |
 | Module | Homepage |
-| Test Scenario | Verify whether the company logo is displayed correctly |
+| Test Scenario | Verify whether the company logo is visible |
 | Preconditions | Cynbit homepage is open |
-| Test Steps | 1. Open the homepage. 2. Check the logo in the top-left corner. 3. Verify its visibility and clarity. |
-| Expected Result | Company logo should be visible, clear and properly displayed. |
-| Actual Result | Logo was visible and clear. No additional issues observed. |
+| Test Steps | 1. Open the homepage. 2. Check the company logo in the header. |
+| Expected Result | Company logo should be visible and clear. |
+| Actual Result | Company logo was visible and clear. |
 | Status | PASS |
 
-### TC003 – Home Navigation Using Company Logo
+### TC003 – Logo Navigation from Contact Page
 
 | Field | Details |
 |---|---|
 | Test Case ID | TC003 |
 | Module | Navigation |
-| Test Scenario | Verify whether clicking the company logo navigates to the homepage |
-| Preconditions | Contact page is open |
-| Test Steps | 1. Open the Contact page. 2. Click the company logo in the top-left corner. 3. Verify the destination page. |
+| Test Scenario | Verify whether clicking the company logo from the Contact page navigates to the homepage |
+| Preconditions | Cynbit Contact page is open |
+| Test Steps | 1. Open the Contact page. 2. Click the Cynbit company logo. 3. Observe the destination page. |
 | Expected Result | User should be redirected to the homepage. |
 | Actual Result | Clicking the logo successfully navigated back to the homepage. |
 | Status | PASS |
 
----
-
 ## 4. Test Execution Results
 
-| Test Case ID | Test Scenario | Status |
+| Test Case ID | Test Scenario | Actual Status |
 |---|---|---|
 | TC001 | Homepage Loading | PASS |
 | TC002 | Company Logo Verification | PASS |
-| TC003 | Home Navigation | PASS |
+| TC003 | Logo Navigation from Contact Page | PASS |
 
 ## 5. Conclusion
 
-The first three manual test cases were executed successfully on the Cynbit Technologies website.
+The first three manual functional test cases were executed successfully.
 
-All three test cases passed during the initial testing phase.
+All three executed test cases passed. No failures were observed in these tests.
 
-Further testing will cover navigation links, buttons, forms, responsiveness, usability and other website functionalities.
+Further testing of website navigation, page links, forms, responsiveness, usability, and accessibility is pending.
+
+**Overall Status:** Testing In Progress
