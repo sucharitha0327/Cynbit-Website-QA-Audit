@@ -14,7 +14,7 @@
 
 | Total Test Cases | Passed | Failed | Not Run |
 |---|---|---|---|
-| 3 | 3 | 0 | 0 |
+| 4 | 4 | 0 | 0 |
 
 ## 2. Test Environment
 
@@ -67,6 +67,19 @@
 | Actual Result | Clicking the logo successfully navigated back to the homepage. |
 | Status | PASS |
 
+### TC004 – Our Story Page Navigation
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC004 |
+| Module | Company |
+| Test Scenario | Verify whether the Our Story page opens successfully |
+| Preconditions | Cynbit homepage is open |
+| Test Steps | 1. Click Company in the navigation menu. 2. Select Our Story. 3. Verify the page content. |
+| Expected Result | Our Story page should open and display company information. |
+| Actual Result | Our Story page opened successfully and displayed the company vision, mission, and other content. |
+| Status | PASS |
+
 ## 4. Test Execution Results
 
 | Test Case ID | Test Scenario | Actual Status |
@@ -74,12 +87,13 @@
 | TC001 | Homepage Loading | PASS |
 | TC002 | Company Logo Verification | PASS |
 | TC003 | Logo Navigation from Contact Page | PASS |
+| TC004 | Our Story Page Navigation | PASS |
 
 ## 5. Conclusion
 
-The first three manual functional test cases were executed successfully.
+The first four manual functional test cases were executed successfully.
 
-All three executed test cases passed. No failures were observed in these tests.
+All four executed test cases passed. No failures were observed in these tests.
 
 Further testing of website navigation, page links, forms, responsiveness, usability, and accessibility is pending.
 
