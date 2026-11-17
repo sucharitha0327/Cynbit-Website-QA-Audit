@@ -14,7 +14,7 @@
 
 | Total Test Cases | Passed | Failed | Not Run |
 |---|---|---|---|
-| 14 | 14 | 0 | 0 |
+| 25 | 24 | 0 | 1 |
 
 ## 2. Test Environment
 
