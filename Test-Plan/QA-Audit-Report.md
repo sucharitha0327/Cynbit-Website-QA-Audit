@@ -42,11 +42,20 @@ Manual testing was performed by:
 - Verifying HTTPS connection.
 
 ## 6. Test Execution Summary
-- Test cases recorded: TC001 to TC140.
-- Most executed checks passed.
-- Two test cases failed due to the same navigation issue.
-- Phone number validation (TC019) remains pending.
-- Some repeated checks may be consolidated during final review.
+
+| Metric | Result |
+|---|---:|
+| Total Test Cases | 138 |
+| Test Cases Assessed | 138 |
+| Passed | 134 |
+| Failed | 2 |
+| Not Applicable | 2 |
+| Not Run / Pending | 0 |
+
+**Overall Testing Status: Completed with Issues**
+
+The audit identified two navigation issues related to the Return to Site option (TC073 and TC138).
+
 
 ## 7. Issues Identified
 
