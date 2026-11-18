@@ -11,17 +11,11 @@
 ---
 
 
-##  1. Test Execution Summary
+## 1. Test Execution Summary
 
-| Description | Details |
-|---|---|
-| Total Test Cases | 138 |
-| Test Cases Checked | 137 |
-| Passed | 134 |
-| Failed | 2 |
-| Not Applicable | 1 |
-| Not Run / Pending | 1 |
-| Testing Status | Completed with Issues |
+| Total Test Cases | Passed | Failed | Not Run |
+|---|---|---|---|
+| 138 | 134 | 2 | 2 |
 
 ## 2. Test Environment
 
@@ -32,6 +26,11 @@
 | Testing Type | Manual Testing |
 | Website | https://cynbit.in/ |
 | Test Method | Functional Testing |
+
+
+
+
+
 
 ## 3. Manual Test Cases
 
@@ -1973,30 +1972,21 @@
 | TC137 | Mobile Newsletter Close Button | Newsletter Close button worked correctly on mobile. | PASS |
 | TC138 | Mobile Return to Site Navigation | Tapping Return to Site navigated to the Contact page instead of the expected homepage. | FAIL |
 
-## Conclusion
 
-A total of 27 manual test cases were documented for the Cynbit website.
+## 5. Conclusi
 
-Out of these:
-- 26 test cases passed successfully.
-- 0 test cases failed.
-- 1 test case remains pending.
+A total of 138 manual test cases were assessed during the Cynbit Website Quality Audit.
 
-The testing covered the following areas:
+- **134 test cases passed successfully.**
+- **2 test cases failed (TC073 and TC138).**
+- **2 test cases were marked Not Applicable (TC019 and TC067).**
+- **0 test cases remain pending.**
 
-- Homepage loading and company logo visibility.
-- Website navigation and internal page links.
-- Company, Expertise, and BitElevate sections.
-- Contact form fields and validation.
-- Contact form submission confirmation.
-- Footer navigation and Privacy Policy link.
-- Social media links (LinkedIn, Instagram, Facebook, and X).
-- Newsletter link and subscription functionality.
+The testing covered website navigation, contact form functionality, newsletter behaviour, footer links, mobile and tablet responsiveness, keyboard accessibility, and basic browser checks.
 
-The executed test cases performed as expected, and no failures were observed.
+The main issue identified was that the **Return to Site** option navigated to the Contact page instead of the expected homepage on both desktop and mobile.
 
-Further testing is required for the remaining pending test case, responsiveness, usability, accessibility, and performance.
+Further improvements are recommended for newsletter navigation, accessibility, performance, and security. Formal performance, accessibility, and security testing was outside the scope of this manual audit.
 
-**Overall Testing Status: Testing In Progress**
+**Overall Testing Status: Completed with Issues**
 
-The audit will be considered complete after the remaining test activities are performed and documented.
