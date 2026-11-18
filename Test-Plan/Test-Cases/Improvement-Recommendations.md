@@ -10,7 +10,7 @@ This document provides recommendations based on the manual quality audit of the 
 - Maintain consistent navigation behavior across desktop and mobile devices.
 
 ## 3. Contact Form Improvements
-- Review phone number field availability and validation.
+- Confirm whether a Phone Number field is required in the Contact form. If required, add the field with suitable input validation.
 - Provide clear validation messages for incorrect or incomplete inputs.
 - Maintain consistent form behavior across desktop and mobile devices.
 - Ensure users receive clear confirmation after submitting an enquiry.
@@ -42,5 +42,11 @@ This document provides recommendations based on the manual quality audit of the 
 - Test the website on Chrome, Firefox, Edge, and Safari.
 - Verify navigation, forms, and responsive layouts across browsers.
 
+
 ## 9. Conclusion
-The Cynbit website performed well in most of the manual checks conducted. Addressing the identified navigation issue and reviewing pending phone validation, along with the recommendations above, can further improve website reliability and user experience.
+
+The Cynbit website performed well in most of the 138 manual test cases assessed. A total of 134 test cases passed, 2 failed, and 2 were marked Not Applicable.
+
+The main issue identified was that the newsletter Return to Site option navigated to the Contact page instead of the expected homepage on desktop and mobile.
+
+Implementing the recommendations in this document can improve website navigation, usability, accessibility, responsiveness, and overall user experience.
