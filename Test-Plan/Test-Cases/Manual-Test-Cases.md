@@ -14,7 +14,7 @@
 
 | Total Test Cases | Passed | Failed | Not Run |
 |---|---|---|---|
-| 27 | 26 | 0 | 1 |
+| 38 | 37 | 0 | 1 |
 
 ## 2. Test Environment
 
@@ -354,18 +354,6 @@
 | Actual Result | Cynbit's X page opened successfully. |
 | Status | PASS |
 
-
-## Test Execution Results
-
-### Test Execution Summary
-
-| Metric | Count |
-|---|---:|
-| Total Test Cases | 25 |
-| Passed | 24 |
-| Failed | 0 |
-| Not Run / Pending | 1 |
-
 ### TC026 – Newsletter Link Verification
 
 | Field | Details |
@@ -390,6 +378,149 @@
 | Test Steps | 1. Open the newsletter section. 2. Enter a business email address. 3. Click Subscribe Now. |
 | Expected Result | Newsletter subscription should complete successfully and display a confirmation message. |
 | Actual Result | The message "Success! Welcome to the network." was displayed. |
+| Status | PASS |
+
+### TC028 – Mobile Responsiveness Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC028 |
+| Module | Homepage / Mobile Responsiveness |
+| Test Scenario | Verify whether the Cynbit website displays properly on mobile screens |
+| Preconditions | Cynbit homepage is open in Chrome mobile view |
+| Test Steps | 1. Open the homepage in mobile view. 2. Check the company logo. 3. Check the navigation menu. 4. Open the navigation menu. 5. Check text readability. 6. Check image display. |
+| Expected Result | Website content, logo, navigation menu, text, and images should display properly on mobile screens. |
+| Actual Result | Logo and navigation menu were visible. The menu opened successfully. Text was readable, and images fitted inside the mobile screen. |
+| Status | PASS |
+
+### TC029 – Mobile Horizontal Scrolling Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC029 |
+| Module | Mobile Responsiveness |
+| Test Scenario | Verify whether unwanted horizontal scrolling occurs on mobile screens |
+| Preconditions | Cynbit homepage is open on a mobile phone |
+| Test Steps | 1. Open the Cynbit homepage on a mobile phone. 2. Swipe from right to left. 3. Check whether the webpage moves horizontally. |
+| Expected Result | Website should fit within the mobile screen without unwanted horizontal scrolling. |
+| Actual Result | The webpage did not move horizontally and stayed within the mobile screen width. |
+| Status | PASS |
+
+### TC030 – Mobile Footer Display Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC030 |
+| Module | Footer / Mobile Responsiveness |
+| Test Scenario | Verify whether footer content displays properly on mobile screens |
+| Preconditions | Cynbit homepage is open on a mobile phone |
+| Test Steps | 1. Open the Cynbit homepage on a mobile phone. 2. Scroll to the bottom. 3. Check the logo, email address, phone numbers, Explore links, Impact links, and social media icons. |
+| Expected Result | Footer content should be visible and properly displayed on mobile screens. |
+| Actual Result | Footer was visible, and the logo, email address, phone numbers, Explore links, Impact links, and social media icons were displayed. |
+| Status | PASS |
+
+### TC031 – Mobile Contact Page Display Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC031 |
+| Module | Contact Page / Mobile Responsiveness |
+| Test Scenario | Verify whether the Contact page displays properly on mobile screens |
+| Preconditions | Cynbit website is open on a mobile phone |
+| Test Steps | 1. Open the Cynbit website. 2. Open the navigation menu. 3. Tap Contact. 4. Check the page heading, contact information, and contact form fields. |
+| Expected Result | Contact page heading, contact information, and form fields should be visible on mobile screens. |
+| Actual Result | Contact page opened successfully. Heading, contact information, and name, email, and message fields were visible. |
+| Status | PASS |
+
+### TC032 – Mobile Contact Form Field Usability
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC032 |
+| Module | Contact Form / Mobile Responsiveness |
+| Test Scenario | Verify whether contact form fields accept user input on mobile devices |
+| Preconditions | Cynbit Contact page is open on a mobile phone |
+| Test Steps | 1. Open the Contact page. 2. Tap the Name field and enter a test name. 3. Tap the Email field and enter a valid email address. 4. Tap the Your Message field and enter a test message. |
+| Expected Result | Name, Email, and Message fields should accept user input correctly on mobile devices. |
+| Actual Result | All three fields accepted the entered text successfully on mobile. |
+| Status | PASS |
+
+### TC033 – Mobile Submit Button Visibility Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC033 |
+| Module | Contact Form / Mobile Responsiveness |
+| Test Scenario | Verify whether the Submit button is visible on mobile screens |
+| Preconditions | Cynbit Contact page is open on a mobile phone |
+| Test Steps | 1. Open the Contact page. 2. Scroll to the bottom of the contact form. 3. Check the visibility of the Submit button. |
+| Expected Result | Submit button should be clearly visible on mobile screens. |
+| Actual Result | Submit button was clearly visible on the mobile screen. |
+| Status | PASS |
+
+### TC034 – Mobile Submit Button Usability Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC034 |
+| Module | Contact Form / Mobile Responsiveness |
+| Test Scenario | Verify whether the Submit button is easy to tap on mobile devices |
+| Preconditions | Cynbit Contact page is open on a mobile phone |
+| Test Steps | 1. Locate the Submit button. 2. Check whether its size and placement allow comfortable tapping. |
+| Expected Result | Submit button should be easy to tap on mobile devices. |
+| Actual Result | Submit button appeared large enough and easy to tap with a finger. |
+| Status | PASS |
+
+### TC035 – Mobile Navigation Link Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC035 |
+| Module | Navigation / Mobile Responsiveness |
+| Test Scenario | Verify whether website navigation links work on mobile devices |
+| Preconditions | Cynbit website is open on a mobile phone |
+| Test Steps | 1. Open the mobile navigation menu. 2. Tap Our Story. 3. Check whether the page opens. |
+| Expected Result | Our Story page should open successfully on mobile devices. |
+| Actual Result | Our Story page opened successfully from the mobile navigation menu. |
+| Status | PASS |
+
+### TC036 – Mobile Newsletter Display Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC036 |
+| Module | Newsletter / Mobile Responsiveness |
+| Test Scenario | Verify whether the newsletter section is visible on mobile screens |
+| Preconditions | Cynbit homepage is open on a mobile phone |
+| Test Steps | 1. Open the homepage. 2. Scroll to the footer. 3. Locate the newsletter section. |
+| Expected Result | Newsletter section should be visible and readable on mobile screens. |
+| Actual Result | Newsletter section was visible and readable on the mobile screen. |
+| Status | PASS |
+
+### TC037 – Mobile Social Media Links Visibility Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC037 |
+| Module | Footer / Mobile Responsiveness |
+| Test Scenario | Verify whether social media icons are visible on mobile screens |
+| Preconditions | Cynbit homepage is open on a mobile phone |
+| Test Steps | 1. Open the homepage. 2. Scroll to the footer. 3. Check LinkedIn, Instagram, Facebook, and X icons. |
+| Expected Result | All social media icons should be visible on mobile screens. |
+| Actual Result | LinkedIn, Instagram, Facebook, and X icons were visible in the mobile footer. |
+| Status | PASS |
+
+### TC038 – Tablet Responsiveness Verification
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC038 |
+| Module | Homepage / Tablet Responsiveness |
+| Test Scenario | Verify whether the Cynbit website displays properly on tablet-sized screens |
+| Preconditions | Cynbit homepage is open in Chrome tablet device view |
+| Test Steps | 1. Open the homepage in Chrome. 2. Enable Developer Tools device mode. 3. Select an iPad or tablet-sized screen. 4. Check the company logo, navigation, text, and images. |
+| Expected Result | Website logo, navigation, text, and images should display properly on tablet screens. |
+| Actual Result | Company logo and navigation were visible. Text was readable, and images fitted properly inside the tablet preview. |
 | Status | PASS |
 
 ### Test Execution Details
@@ -423,6 +554,19 @@
 | TC025 | X (Twitter) Social Media Link | Cynbit's X page opened successfully. | PASS |
 | TC026 | Newsletter Link Verification | Clicking Join the Newsletter opened the Architect's Digest newsletter subscription section successfully. | PASS |
 | TC027 | Newsletter Subscription Verification | After clicking Subscribe Now, the message "Success! Welcome to the network." was displayed. | PASS |
+| TC028 | Mobile Responsiveness Verification | Company logo and navigation menu were visible, the menu opened successfully, text was readable, and images fitted inside the mobile screen. | PASS |
+| TC029 | Mobile Horizontal Scrolling Verification | The webpage stayed within the mobile screen width without horizontal movement. | PASS |
+| TC030 | Mobile Footer Display Verification | Footer was visible on mobile, including the logo, contact details, Explore links, Impact links, and social media icons. | PASS |
+| TC031 | Mobile Contact Page Display Verification | Contact page opened successfully on mobile. Heading, contact information, and form fields were visible. | PASS |
+| TC032 | Mobile Contact Form Field Usability | Name, Email, and Message fields accepted user input successfully on mobile. | PASS |
+| TC033 | Mobile Submit Button Visibility | Submit button was clearly visible on the mobile screen. | PASS |
+| TC034 | Mobile Submit Button Usability | Submit button appeared large enough and easy to tap with a finger. | PASS |
+| TC035 | Mobile Navigation Link Verification | Our Story page opened successfully from the mobile navigation menu. | PASS |
+| TC036 | Mobile Newsletter Display | Newsletter section was visible and readable on mobile. | PASS |
+| TC037 | Mobile Social Media Links Visibility | LinkedIn, Instagram, Facebook, and X icons were visible in the mobile footer. | PASS |
+| TC038 | Tablet Responsiveness Verification | Logo and navigation were visible, text was readable, and images fitted properly inside the tablet preview. | PASS |
+
+
 
 
 ## Conclusion
