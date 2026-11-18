@@ -1,203 +1,99 @@
-# Cynbit Technologies – Website QA Audit Report
 
-**Project Name:** Cynbit Website Quality Audit  
-**Role:** QA Testing Intern  
-**Prepared By:** Kethala Sucharitha  
-**Company:** Cynbit Technologies  
-**Testing Type:** Manual Website Testing  
-**Project Status:** Testing In Progress  
-**Date:** 17 November 2026
+# Cynbit Website – QA Audit Report
 
----
+## 1. Project Overview
+- **Project:** Cynbit Website Quality Audit
+- **Testing Type:** Manual Testing
+- **Website:** https://cynbit.in/
+- **Testing Status:** Testing Completed
 
-## 1. Introduction
+## 2. Objective
+To evaluate the Cynbit website's functionality, navigation, usability, responsiveness, accessibility, and basic performance.
 
-The purpose of this project is to perform a quality audit of the Cynbit Technologies website.
+## 3. Scope of Testing
+- Homepage and company pages
+- Company, Expertise, and BitElevate navigation
+- Contact page and contact form
+- Newsletter section
+- Footer links and social media links
+- Mobile and tablet responsiveness
+- Keyboard accessibility
+- Basic browser console and network checks
+- HTTPS verification
 
-The objective is to identify issues that may affect the user experience, website functionality, accessibility, responsiveness, performance and overall website quality.
+## 4. Test Environment
+- Operating System: Windows 11
+- Browser: Google Chrome
+- Desktop: Desktop browser
+- Mobile: Mobile device and Chrome responsive preview
+- Tablet: Chrome responsive tablet preview
 
-Testing will be performed from the perspective of a real website user.
+*Exact device models, browser versions, and screen resolutions were not recorded.*
 
-## 2. Testing Objectives
+## 5. Testing Methodology
+Manual testing was performed by:
+- Navigating through website pages and menus.
+- Checking buttons, links, and dropdown menus.
+- Testing contact form input and validation.
+- Checking newsletter functionality.
+- Verifying mobile and tablet layouts.
+- Checking keyboard navigation and image alternative text.
+- Observing browser console and network requests.
+- Verifying HTTPS connection.
 
-- Verify website functionality.
-- Identify broken links and navigation issues.
-- Test buttons and interactive elements.
-- Verify website responsiveness across different screen sizes.
-- Identify usability issues.
-- Check basic accessibility.
-- Observe website loading and performance.
-- Document security-related observations.
+## 6. Test Execution Summary
+- Test cases recorded: TC001 to TC140.
+- Most executed checks passed.
+- Two test cases failed due to the same navigation issue.
+- Phone number validation (TC019) remains pending.
+- Some repeated checks may be consolidated during final review.
 
-## 3. Testing Scope
+## 7. Issues Identified
 
-### In Scope
+### Issue 01 – Return to Site Navigation
 
-The following areas will be tested:
+- **Test Cases:** TC073 (Desktop), TC138 (Mobile)
+- **Module:** Newsletter
+- **Expected Result:** Return to Site should navigate to the intended main website landing page.
+- **Actual Result:** Clicking Return to Site navigates to the Contact page on both desktop and mobile.
+- **Status:** FAIL – Intended destination requires confirmation.
+- **Severity:** Low (provisional)
+- **Recommendation:** Verify the intended destination and correct the link if necessary.
 
-1. Homepage
-2. About / Our Story page
-3. Services page
-4. Careers page
-5. Contact page
-6. BitElevate section
-7. Header and navigation menu
-8. Footer links
-9. Buttons and interactive elements
-10. Mobile and desktop responsiveness
+## 8. Accessibility Testing Observations
+- Keyboard navigation using Tab was checked.
+- Enter key navigation was checked.
+- Visible keyboard focus was observed.
+- Image alternative text was inspected.
+- Text and background contrast was visually checked.
+- Contact form keyboard accessibility was checked.
 
-### Out of Scope
+*Note: Formal WCAG compliance testing was not performed.*
 
-- Backend source code testing
-- Database testing
-- Internal API testing
-- Penetration testing
-- Server infrastructure testing
+## 9. Performance Testing Observations
+- Homepage loaded without noticeable delay during manual observation.
+- Browser console showed no visible errors during the checks.
+- Inspected network requests showed successful responses, including status 200.
+- No visible failed requests were observed during inspection.
 
-## 4. Testing Methodology
+*Note: Formal load and stress testing were not performed.*
 
-Manual testing will be performed using the following approach:
+## 10. Security Observations
+- HTTPS connection was verified.
+- Contact form was accessed over HTTPS.
+- No penetration testing or vulnerability scanning was performed.
 
-1. Open the website in a browser.
-2. Navigate through all available pages.
-3. Verify navigation links and buttons.
-4. Check images and page content.
-5. Test forms and user interactions where available.
-6. Resize the browser to check responsiveness.
-7. Perform basic keyboard accessibility checks.
-8. Record defects with screenshots.
-9. Prepare bug reports.
-10. Provide improvement recommendations.
+## 11. Recommendations
+1. Verify and correct the newsletter Return to Site navigation destination if necessary.
+2. Review phone number validation on the contact form.
+3. Perform automated accessibility testing.
+4. Conduct formal performance testing.
+5. Perform authorized security testing.
+6. Test the website across additional browsers and devices.
 
-## 5. Test Environment Matrix
+## 12. Conclusion
+The Cynbit website was evaluated through manual functional, usability, navigation, accessibility observation, and responsive testing.
 
-| Parameter | Environment |
-|---|---|
-| Operating System | Windows 11 |
-| Browser | Google Chrome |
-| Testing Approach | Manual Testing |
-| Desktop | 1920 × 1080 |
-| Laptop | 1366 × 768 |
-| Tablet | 768 × 1024 |
-| Mobile | 375 × 812 |
-| Testing Tools | Chrome DevTools, GitHub |
-| Website | https://www.cynbit.in/ |
+Most observed website functions worked as expected. One navigation issue was identified in both desktop and mobile testing. Phone number validation remains pending.
 
-*Note: Browser version and device configurations will be recorded during execution. Planned screen sizes must be tested before marking them as completed.*
-
-## 6. Types of Testing
-
-### Functional Testing
-- Verify navigation links.
-- Check buttons and interactive elements.
-- Verify form submissions where available.
-- Check page loading and navigation.
-
-### UI Testing
-- Verify text alignment.
-- Check image display.
-- Verify font consistency.
-- Identify layout issues.
-
-### Responsive Testing
-- Test desktop layout.
-- Test tablet layout.
-- Test mobile layout.
-- Check horizontal scrolling and overlapping elements.
-
-### Usability Testing
-- Verify navigation clarity.
-- Check readability.
-- Identify confusing user interactions.
-
-### Accessibility Testing
-- Check keyboard navigation.
-- Verify visible focus indicators.
-- Check image alternative text where possible.
-- Observe color contrast.
-
-### Basic Performance Testing
-- Observe page loading.
-- Identify unusually slow-loading elements.
-- Check for broken images and resources.
-
-### Basic Security Observations
-- Verify HTTPS usage.
-- Observe whether forms expose sensitive information.
-- Identify visible security-related concerns without performing intrusive testing.
-
-## 7. Entry Criteria
-
-- Website is publicly accessible.
-- Testing browser is available.
-- Required pages can be accessed.
-- Test cases are prepared.
-
-## 8. Exit Criteria
-
-- Planned test cases have been executed.
-- Identified defects are documented.
-- Screenshots are collected where applicable.
-- Improvement recommendations are prepared.
-- Final QA report is completed.
-
-## 9. Defect Reporting Format
-
-Each identified defect will include:
-
-- Bug ID
-- Bug title
-- Module
-- Steps to reproduce
-- Expected result
-- Actual result
-- Severity
-- Priority
-- Screenshot or evidence
-- Status
-
-## 10. Test Execution Status
-
-| Testing Area | Status |
-|---|---|
-| Homepage | Not Started |
-| Navigation | Not Started |
-| Services | Not Started |
-| Careers | Not Started |
-| Contact | Not Started |
-| Footer | Not Started |
-| Responsiveness | Not Started |
-| Accessibility | Not Started |
-| Performance | Not Started |
-
-## 11. Deliverables
-
-1. QA Audit Report
-2. Manual Test Cases
-3. Bug and Issue Report
-4. Improvement Recommendations
-5. Screenshots and Testing Evidence
-
-
-## Conclusion
-
-The Cynbit website quality audit included 27 manual test cases covering website functionality, navigation, contact form validation, footer links, social media links, and newsletter subscription.
-
-Out of 27 test cases:
-- **26 Passed**
-- **0 Failed**
-- **1 Pending**
-
-The executed test cases worked as expected, and no functional failures were observed during the testing performed.
-
-Further testing is required for phone number validation, website responsiveness, usability, accessibility, and performance.
-
-Overall, the tested website features performed successfully based on the executed manual test cases.
-
-**Overall Testing Status: Testing In Progress**
-
----
-
-**Prepared by:** Kethala Sucharitha  
-**Role:** QA Testing Intern Applicant  
-**Project:** Cynbit Website Quality Audit
+The audit documents the observed results and provides recommendations for improving website quality and user experience.
